@@ -156,11 +156,7 @@ CREATE TABLE `tblpayment` (
 
 INSERT INTO `tblpayment` (`id`, `bookingID`, `paymentType`, `payment`, `payment_date`) VALUES
 (1, '1', 'Partial Payment', '300', '2022-03-05 03:54:10'),
-(4, '1', 'Full Payment', '500', '2022-05-22 01:01:58'),
-(5, '3', 'Partial Payment', '300', '2022-05-22 01:09:53'),
-(8, '3', 'Full Payment', '500', '2022-05-22 01:19:03'),
-(9, '7', 'Partial Payment', '500', '2022-05-22 02:40:34'),
-(10, '7', 'Full Payment', '300', '2022-05-22 02:41:14');
+
 
 -- --------------------------------------------------------
 
@@ -186,12 +182,7 @@ CREATE TABLE `tbluser` (
 --
 
 INSERT INTO `tbluser` (`id`, `fname`, `lname`, `email`, `mobile`, `password`, `state`, `city`, `address`, `create_date`) VALUES
-(1, 'atul', 'kumar', 'atul@gmail.com', '8888888888', 'f925916e2754e5e03f75dd58a5733251', 'Uttar Pradesh', 'niuda', 'e-48 new asholk nagar hdd ', '2022-02-16 16:48:25'),
-(2, 'ddd', 'ddf', 'df@gmail.com', '9968556', 'e10adc3949ba59abbe56e057f20f883e', 'fgfg', 'fsdf', NULL, '2022-02-16 17:00:20'),
-(3, 'anuj', 'kumar', 'anuj@gmail.com', '9999999999', 'f925916e2754e5e03f75dd58a5733251', 'up', 'noida', NULL, '2022-03-02 15:37:22'),
-(4, 'sssssss', 'sssssss', 'sssssss', 'sssssss', 'f925916e2754e5e03f75dd58a5733251', 'sssssss', 'sssssss', NULL, '2022-03-05 03:27:28'),
-(5, 'Anuj k', 'kumar', 'anuj.doca@Gmail.com', '1234567890', '202cb962ac59075b964b07152d234b70', 'sghsdg', 'sahgsh', NULL, '2022-03-08 17:43:23'),
-(6, 'John', 'Doe', 'john@test.com', '1425635241', 'f925916e2754e5e03f75dd58a5733251', 'Delhi', 'New Delhi', 'ABC Street XYZ Colony', '2022-05-22 02:31:54');
+(1, 'Idaya', 'Seidu', 'idaya.seidu@ashesi.edu.gh', '0207611117', 'f925916e2754e5e03f75dd58a5733251', 'Ashanti Region', 'kumasi', 'e-48 new asholk nagar hdd ', '2022-02-16 16:48:25'),
 
 --
 -- Indexes for dumped tables
